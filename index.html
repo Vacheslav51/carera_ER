@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Моя карьера с Единой Россией — Новосибирская область</title>
+<meta name="description" content="Региональная информационная площадка проекта «Моя карьера с Единой Россией» в Новосибирске и Новосибирской области: профориентация, карьерные встречи, экскурсии на предприятия и взаимодействие с работодателями. Оставьте заявку участника или работодателя.">
+<!-- ЗАМЕНИТЬ example.ru на рабочий домен (здесь, в sitemap.xml и robots.txt) -->
+<link rel="canonical" href="https://example.ru/">
+<meta name="theme-color" content="#0A397D">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="ru_RU">
+<meta property="og:title" content="Моя карьера с Единой Россией — Новосибирская область">
+<meta property="og:description" content="Профориентация, карьерные встречи и взаимодействие с работодателями в Новосибирской области.">
+<meta property="og:url" content="https://example.ru/">
+<meta property="og:image" content="https://example.ru/assets/img/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<!-- Временный favicon. Заменить на утверждённый (ТЗ, разд. 7) -->
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preload" href="assets/fonts/inter-ExtraBold.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="assets/fonts/inter-Regular.woff" as="font" type="font/woff" crossorigin>
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<!-- Набор пиктограмм (собственная отрисовка) -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <symbol id="i-user" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4.4 3.6-7 8-7s8 2.6 8 7"/></symbol>
+    <symbol id="i-case" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="7" width="18" height="13" rx="2"/><path d="M8 7V5a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2M3 13h18M11 12.5h2v2h-2z"/></symbol>
+    <symbol id="i-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12h15M13 6l6 6-6 6"/></symbol>
+    <symbol id="i-ext" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 4h6v6M20 4l-9 9M18 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5"/></symbol>
+    <symbol id="i-workshop" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><rect x="6" y="9" width="36" height="24" rx="3"/><path d="M17 41h14M24 33v8M14 25l6-6 5 4 9-8"/></symbol>
+    <symbol id="i-meet" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><circle cx="16" cy="15" r="6"/><circle cx="33" cy="15" r="6"/><path d="M5 38c0-6.5 5-10.5 11-10.5S27 31.5 27 38M22 31.5c2-2.6 5.3-4 9-4 6 0 11 4 11 10.5"/></symbol>
+    <symbol id="i-factory" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 41V22l11 7v-7l11 7v-7l11 7V8h5v33z"/><path d="M12 35h4M22 35h4M32 35h4"/></symbol>
+    <symbol id="i-study" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M3 18l21-10 21 10-21 10z"/><path d="M11 22v10c0 3 6 6 13 6s13-3 13-6V22M45 18v11"/></symbol>
+    <symbol id="i-mentor" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><circle cx="15" cy="12" r="6"/><circle cx="35" cy="18" r="4.5"/><path d="M4 41c0-7 5-12 11-12s11 5 11 12M27 41c0-5.5 3.6-9.5 8-9.5s8 4 8 9.5M21 22l8-4"/></symbol>
+    <symbol id="i-target" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><circle cx="22" cy="26" r="16"/><circle cx="22" cy="26" r="9"/><circle cx="22" cy="26" r="2.5"/><path d="M33 15l7-7M36 8h4v4"/></symbol>
+    <symbol id="i-cal" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><rect x="6" y="9" width="36" height="32" rx="4"/><path d="M6 19h36M16 5v8M32 5v8M14 27h4M22 27h4M30 27h4M14 34h4M22 34h4"/></symbol>
+    <symbol id="i-mic" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><rect x="17" y="5" width="14" height="24" rx="7"/><path d="M10 23c0 7.7 6.3 13 14 13s14-5.3 14-13M24 36v7M17 43h14"/></symbol>
+    <symbol id="i-pin" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></symbol>
+    <symbol id="i-phone" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M5 3h4l2 5-2.5 1.5a11 11 0 0 0 6 6L16 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 5a2 2 0 0 1 2-2"/></symbol>
+    <symbol id="i-mail" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></symbol>
+    <symbol id="i-doc" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M14 3H6a1 1 0 0 0-1 1v16a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V8z"/><path d="M14 3v5h5M8.5 13h7M8.5 17h5"/></symbol>
+    <symbol id="i-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.5 4.5L19 7.5"/></symbol>
+  </defs>
+</svg>
+
+<a class="skip" href="#main">Перейти к содержанию</a>
+
+<!-- ============ ШАПКА ============ -->
+<header class="site-header">
+  <div class="wrap header-row">
+    <!-- Временное текстовое название. Заменить на согласованный логотип проекта (SVG) после получения разрешения -->
+    <a class="brand" href="#top" aria-label="Моя карьера с Единой Россией — на главную">
+      <span class="brand-name">Моя карьера<br>с Единой Россией</span>
+      <span class="brand-region">Региональная информационная<br>площадка · Новосибирская область</span>
+    </a>
+    <nav class="nav" aria-label="Основная навигация">
+      <a href="#about">О проекте</a>
+      <a href="#formats">Форматы</a>
+      <a href="#team">Команда</a>
+      <a href="#events">Мероприятия</a>
+      <a href="#contacts">Контакты</a>
+    </nav>
+    <a class="btn btn-primary btn-sm header-cta" href="#apply">Оставить заявку</a>
+    <button class="burger" type="button" aria-expanded="false" aria-controls="mobile-menu" aria-label="Открыть меню">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path class="b-open" d="M4 7h16M4 12h16M4 17h16"/></svg>
+    </button>
+  </div>
+  <div class="mobile-menu" id="mobile-menu">
+    <div class="wrap">
+      <a class="mm-link" href="#about">О проекте</a>
+      <a class="mm-link" href="#formats">Форматы</a>
+      <a class="mm-link" href="#team">Команда</a>
+      <a class="mm-link" href="#events">Мероприятия</a>
+      <a class="mm-link" href="#contacts">Контакты</a>
+      <div class="mm-cta">
+        <a class="btn btn-primary" href="#participants"><svg aria-hidden="true"><use href="#i-user"/></svg>Я участник</a>
+        <a class="btn btn-outline-red" href="#employers"><svg aria-hidden="true"><use href="#i-case"/></svg>Я работодатель</a>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+
+<!-- ============ ПЕРВЫЙ ЭКРАН ============ -->
+<section class="hero" id="top" aria-labelledby="hero-title">
+  <div class="wrap hero-grid">
+    <div class="hero-text">
+      <h1 id="hero-title">Моя карьера<br>с Единой Россией</h1>
+      <div class="region-ribbon">Новосибирск и Новосибирская область</div>
+      <p class="subtitle">Профориентация, карьерные встречи и взаимодействие с работодателями в Новосибирской области</p>
+      <div class="hero-ctas">
+        <a class="btn btn-primary" href="#participants"><svg aria-hidden="true"><use href="#i-user"/></svg>Я участник<svg aria-hidden="true"><use href="#i-arrow"/></svg></a>
+        <a class="btn btn-outline-red" href="#employers"><svg aria-hidden="true"><use href="#i-case"/></svg>Я работодатель<svg aria-hidden="true"><use href="#i-arrow"/></svg></a>
+      </div>
+      <a class="hero-more" href="https://proekty.er.ru/projects/moya-karera-s-edinoi-rossiei" target="_blank" rel="noopener" data-official>Подробнее о федеральном проекте<svg width="16" height="16" aria-hidden="true"><use href="#i-ext"/></svg></a>
+    </div>
+    <!-- Концептуальная иллюстрация. Заменить на лицензированное/собственное фото Бугринского моста или кадр регионального мероприятия (WebP/AVIF) -->
+    <div class="hero-media">
+      <img src="assets/img/hero-bridge.svg" width="900" height="560" alt="Иллюстрация: красный арочный мост через Обь на фоне жилых кварталов Новосибирска" fetchpriority="high">
+    </div>
+  </div>
+</section>
+
+<!-- ============ КОМУ ПОЛЕЗЕН ПРОЕКТ ============ -->
+<section class="section" id="about" aria-labelledby="about-title">
+  <div class="wrap">
+    <h2 class="eyebrow" id="about-title">Кому полезен проект</h2>
+    <p class="lead">Региональная площадка помогает жителям Новосибирской области узнать о профессиях и карьерных возможностях, а работодателям — встретиться с будущими сотрудниками.</p>
+    <div class="audience">
+      <article class="aud-card">
+        <div class="aud-head">
+          <div class="aud-ico"><svg aria-hidden="true"><use href="#i-user"/></svg></div>
+          <h3>Участникам</h3>
+        </div>
+        <ul class="checklist">
+          <li>Знакомство с профессиями и отраслями региона</li>
+          <li>Карьерные встречи и консультации</li>
+          <li>Экскурсии на предприятия</li>
+          <li>Информация об обучении и стажировках</li>
+        </ul>
+        <a class="btn btn-primary" href="#participants">Заполнить «Я участник»<svg aria-hidden="true"><use href="#i-arrow"/></svg></a>
+      </article>
+      <article class="aud-card emp">
+        <div class="aud-head">
+          <div class="aud-ico"><svg aria-hidden="true"><use href="#i-case"/></svg></div>
+          <h3>Работодателям</h3>
+        </div>
+        <ul class="checklist">
+          <li>Мероприятия и встречи с кандидатами</li>
+          <li>Участие в профориентационной работе</li>
+          <li>Организация стажировок и наставничества</li>
+          <li>Взаимодействие с образовательными организациями</li>
+        </ul>
+        <a class="btn btn-red" href="#employers">Заполнить «Я работодатель»<svg aria-hidden="true"><use href="#i-arrow"/></svg></a>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ ФОРМАТЫ РАБОТЫ ============ -->
+<!-- Оставить только форматы, которые региональная команда действительно готова проводить -->
+<section class="section section-alt" id="formats" aria-labelledby="formats-title">
+  <div class="wrap">
+    <h2 class="eyebrow" id="formats-title">Форматы работы</h2>
+    <p class="lead">Направления соответствуют форматам федерального проекта. Актуальное расписание организаторы сообщают участникам после заявки.</p>
+    <div class="formats">
+      <article class="fmt">
+        <svg class="fmt-ico" aria-hidden="true"><use href="#i-workshop"/></svg>
+        <h3>Карьерные мастерские</h3>
+        <p>Практические занятия: как выбрать направление, составить резюме и подготовиться к собеседованию.</p>
+      </article>
+      <article class="fmt">
+        <svg class="fmt-ico" aria-hidden="true"><use href="#i-meet"/></svg>
+        <h3>Встречи с работодателями и ярмарки вакансий</h3>
+        <p>Прямой разговор с представителями компаний региона о профессиях и требованиях к кандидатам.</p>
+      </article>
+      <article class="fmt">
+        <svg class="fmt-ico" aria-hidden="true"><use href="#i-factory"/></svg>
+        <h3>Экскурсии на предприятия</h3>
+        <p>Знакомство с производством и реальными условиями работы изнутри.</p>
+      </article>
+      <article class="fmt">
+        <svg class="fmt-ico" aria-hidden="true"><use href="#i-study"/></svg>
+        <h3>Обучение и переподготовка</h3>
+        <p>Информация о программах обучения, повышения квалификации и смены профессии.</p>
+      </article>
+      <article class="fmt">
+        <svg class="fmt-ico" aria-hidden="true"><use href="#i-mentor"/></svg>
+        <h3>Наставничество</h3>
+        <p>Опытные специалисты делятся знаниями с теми, кто начинает путь в профессии.</p>
+      </article>
+      <article class="fmt">
+        <svg class="fmt-ico" aria-hidden="true"><use href="#i-target"/></svg>
+        <h3>Адресные карьерные мероприятия</h3>
+        <p>Встречи для отдельных групп: студентов, ищущих работу и тех, кто меняет профессию.</p>
+      </article>
+    </div>
+
+    <div class="cta-band">
+      <p>Выберите свою роль и оставьте заявку — организаторы свяжутся с вами</p>
+      <div class="btns">
+        <a class="btn btn-primary" href="#participants">Я участник</a>
+        <a class="btn btn-red" href="#employers">Я работодатель</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ КООРДИНАТОР ============ -->
+<!-- До публикации согласовать с Н. В. Безрученковой: текст подписи, должности на дату публикации, портрет и цитату -->
+<section class="section" id="team" aria-labelledby="team-title">
+  <div class="wrap">
+    <h2 class="eyebrow" id="team-title">Координатор проекта в регионе</h2>
+    <div class="coord">
+      <!-- Заглушка: заменить на разрешённый официальный портрет (вертикальный кроп 4:5, ≥1200 px) -->
+      <div class="portrait" role="img" aria-label="Место для официального портрета координатора">
+        <svg viewBox="0 0 200 250" aria-hidden="true"><circle cx="100" cy="92" r="40" fill="#fff" opacity=".7"/><path d="M28 250c0-52 32-84 72-84s72 32 72 84z" fill="#fff" opacity=".7"/></svg>
+        <span>Официальное фото — после согласования</span>
+      </div>
+      <div>
+        <p class="coord-name">Наталия Владимировна Безрученкова</p>
+        <p class="coord-role">Региональный координатор партийного проекта «Моя карьера с Единой Россией», депутат Законодательного Собрания Новосибирской области</p>
+        <a class="small-link" href="https://novosibirsk.er.ru/person/c393ae50-9aa0-482f-9253-71a6b749e57c" target="_blank" rel="noopener" data-official>Профиль координатора на официальном сайте<svg aria-hidden="true"><use href="#i-ext"/></svg></a>
+      </div>
+      <blockquote class="quote" cite="https://www.kommersant.ru/doc/8800201">
+        <span class="quote-mark" aria-hidden="true">«</span>
+        <p>Новосибирской области сегодня нужны качественные кадры, которые бы закрывали потребности работодателей.</p>
+        <footer>Н. В. Безрученкова · <cite><a href="https://www.kommersant.ru/doc/8800201" target="_blank" rel="noopener" data-official>«Коммерсантъ», 10.07.2026</a></cite></footer>
+      </blockquote>
+    </div>
+  </div>
+</section>
+
+<!-- ============ ЧТО УЖЕ ПРОИСХОДИТ ============ -->
+<!-- Фото не размещены: права не подтверждены. После получения разрешений заменить .event-media на <img loading="lazy" ...> с автором снимка -->
+<section class="section section-alt" id="events" aria-labelledby="events-title">
+  <div class="wrap">
+    <h2 class="eyebrow" id="events-title">Что уже происходит в регионе</h2>
+    <p class="lead">Публикации о работе проекта и карьерных мероприятиях в Новосибирской области. Подробности — в первоисточниках.</p>
+    <div class="events">
+      <article class="event">
+        <div class="event-media"><div><svg aria-hidden="true"><use href="#i-meet"/></svg><small>Фото — после подтверждения прав</small></div></div>
+        <div class="event-body">
+          <span class="event-date">Июль 2026</span>
+          <h3>Встреча по проекту «Моя карьера»</h3>
+          <dl>
+            <dt>Формат</dt><dd>Встреча, обсуждение кадровых задач региона</dd>
+            <dt>Площадка</dt><dd>Новосибирск (уточнить по публикации)</dd>
+          </dl>
+          <a class="small-link" href="https://www.kommersant.ru/doc/8800201" target="_blank" rel="noopener" data-official>«Коммерсантъ», 10.07.2026<svg aria-hidden="true"><use href="#i-ext"/></svg></a>
+        </div>
+      </article>
+      <article class="event">
+        <div class="event-media"><div><svg aria-hidden="true"><use href="#i-target"/></svg><small>Фото — после подтверждения прав</small></div></div>
+        <div class="event-body">
+          <span class="event-date">Сентябрь 2026</span>
+          <h3>Профориентационная встреча и профайлинг</h3>
+          <dl>
+            <dt>Формат</dt><dd>Рассказ о профессиях для детей, оставшихся без попечения родителей</dd>
+            <dt>Площадка</dt><dd>Центр «Тёплый дом», Новосибирск</dd>
+          </dl>
+          <a class="small-link" href="https://precedent.tv/v-novosibirske-detyam-ostavshimsya-bez-popecheniya-roditelej-rasskazali-o-professiyah" target="_blank" rel="noopener" data-official>«Прецедент», 08.09.2026<svg aria-hidden="true"><use href="#i-ext"/></svg></a>
+        </div>
+      </article>
+      <article class="event">
+        <div class="event-media"><div><svg aria-hidden="true"><use href="#i-mic"/></svg><small>Фото — после подтверждения прав</small></div></div>
+        <div class="event-body">
+          <span class="event-date">30.09.2026</span>
+          <h3>Интервью регионального координатора</h3>
+          <dl>
+            <dt>Формат</dt><dd>Интервью в СМИ</dd>
+            <dt>Издание</dt><dd>ведомостинсо.рф</dd>
+          </dl>
+          <a class="small-link" href="https://xn--b1aecnthebc1acj.xn--p1ai/30092026-aiming-for-experience" target="_blank" rel="noopener" data-official>Читать интервью<svg aria-hidden="true"><use href="#i-ext"/></svg></a>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ КАК ПРИНЯТЬ УЧАСТИЕ ============ -->
+<section class="section" id="how" aria-labelledby="how-title">
+  <div class="wrap">
+    <h2 class="eyebrow" id="how-title">Как принять участие</h2>
+    <ol class="steps">
+      <li><h3>Выберите роль</h3><p>Участник или работодатель — у каждого своя короткая форма.</p></li>
+      <li><h3>Оставьте контакты</h3><p>Имя и телефон обязательны, остальное — по желанию.</p></li>
+      <li><h3>Получите ответ</h3><p>Организатор свяжется с вами по указанному телефону или e-mail.</p></li>
+      <li><h3>Выберите формат</h3><p>Вместе с организатором подберите доступное мероприятие.</p></li>
+    </ol>
+  </div>
+</section>
+
+<!-- ============ ЗАЯВКИ ============ -->
+<section class="section section-alt" id="apply" aria-labelledby="apply-title">
+  <div class="wrap">
+    <h2 class="eyebrow" id="apply-title">Оставить заявку</h2>
+    <p class="lead">Заполните форму для своей роли. Поля, отмеченные <span class="req">*</span>, обязательны.</p>
+
+    <div class="forms">
+      <!-- Форма «Я участник» -->
+      <form class="form-card" id="participants" data-form="participant" action="send.php" method="post" novalidate>
+        <div class="form-head">
+          <div class="aud-ico"><svg aria-hidden="true"><use href="#i-user"/></svg></div>
+          <div><h3>Я участник</h3><p>Профориентация, карьерные встречи, обучение и стажировки</p></div>
+        </div>
+
+        <div class="field">
+          <label for="p-name">ФИО <span class="req">*</span></label>
+          <input class="input" id="p-name" name="name" type="text" autocomplete="name" maxlength="150" required>
+          <div class="err">Укажите фамилию, имя и отчество (при наличии)</div>
+        </div>
+        <div class="row2">
+          <div class="field">
+            <label for="p-phone">Телефон <span class="req">*</span></label>
+            <input class="input" id="p-phone" name="phone" type="tel" inputmode="tel" autocomplete="tel" placeholder="+7 (___) ___-__-__" data-phone required>
+            <div class="err">Введите номер в формате +7 (999) 999-99-99</div>
+          </div>
+          <div class="field">
+            <label for="p-email">E-mail</label>
+            <input class="input" id="p-email" name="email" type="email" autocomplete="email" maxlength="120">
+            <div class="err">Проверьте адрес электронной почты</div>
+          </div>
+        </div>
+        <div class="field">
+          <label for="p-category">Категория</label>
+          <select class="select" id="p-category" name="category">
+            <option value="">Выберите вариант</option>
+            <option value="student">Студент</option>
+            <option value="jobseeker">Ищу работу</option>
+            <option value="career_change">Меняю профессию</option>
+            <option value="other">Другое</option>
+          </select>
+        </div>
+        <div class="field">
+          <fieldset class="chips">
+            <legend class="label">Что интересует</legend>
+            <label class="chip"><input type="checkbox" name="interest[]" value="meeting"><span>Встреча</span></label>
+            <label class="chip"><input type="checkbox" name="interest[]" value="internship"><span>Стажировка</span></label>
+            <label class="chip"><input type="checkbox" name="interest[]" value="training"><span>Обучение</span></label>
+            <label class="chip"><input type="checkbox" name="interest[]" value="excursion"><span>Экскурсия</span></label>
+            <label class="chip"><input type="checkbox" name="interest[]" value="other"><span>Другое</span></label>
+          </fieldset>
+        </div>
+        <div class="field">
+          <label for="p-comment">Комментарий</label>
+          <textarea class="textarea" id="p-comment" name="comment" maxlength="1000" placeholder="Например: интересует IT, учусь на 3 курсе"></textarea>
+        </div>
+
+        <label class="check" data-req><input type="checkbox" name="adult" value="1" required><span>Мне исполнилось 18 лет <span class="req">*</span></span></label>
+        <label class="check" data-req><input type="checkbox" name="consent" value="1" required><span>Даю <a href="consent.html" target="_blank">согласие на обработку персональных данных</a> и подтверждаю, что ознакомлен(а) с <a href="privacy.html" target="_blank">политикой обработки</a> <span class="req">*</span></span></label>
+
+        <!-- Служебные поля -->
+        <input type="hidden" name="form_type" value="participant">
+        <div class="hp" aria-hidden="true"><label>Сайт<input type="text" name="website" tabindex="-1" autocomplete="off"></label></div>
+
+        <button class="btn btn-primary form-submit" type="submit" disabled>Отправить заявку<svg aria-hidden="true"><use href="#i-arrow"/></svg></button>
+        <div class="form-alert" role="alert"></div>
+        <p class="form-note">Школьникам: заявки на мероприятия принимаются от родителей (законных представителей) или через образовательную организацию.</p>
+      </form>
+
+      <!-- Форма «Я работодатель» -->
+      <form class="form-card emp" id="employers" data-form="employer" action="send.php" method="post" novalidate>
+        <div class="form-head">
+          <div class="aud-ico"><svg aria-hidden="true"><use href="#i-case"/></svg></div>
+          <div><h3>Я работодатель</h3><p>Встречи с кандидатами, стажировки, наставничество и партнёрство</p></div>
+        </div>
+
+        <div class="field">
+          <label for="e-org">Наименование организации / ИП <span class="req">*</span></label>
+          <input class="input" id="e-org" name="org" type="text" autocomplete="organization" maxlength="200" required>
+          <div class="err">Укажите наименование организации или ИП</div>
+        </div>
+        <div class="field">
+          <label for="e-contact">Имя контактного лица <span class="req">*</span></label>
+          <input class="input" id="e-contact" name="contact" type="text" autocomplete="name" maxlength="150" required>
+          <div class="err">Укажите, как к вам обращаться</div>
+        </div>
+        <div class="row2">
+          <div class="field">
+            <label for="e-phone">Телефон <span class="req">*</span></label>
+            <input class="input" id="e-phone" name="phone" type="tel" inputmode="tel" autocomplete="tel" placeholder="+7 (___) ___-__-__" data-phone required>
+            <div class="err">Введите номер в формате +7 (999) 999-99-99</div>
+          </div>
+          <div class="field">
+            <label for="e-email">E-mail</label>
+            <input class="input" id="e-email" name="email" type="email" autocomplete="email" maxlength="120">
+            <div class="err">Проверьте адрес электронной почты</div>
+          </div>
+        </div>
+        <div class="field">
+          <fieldset class="chips">
+            <legend class="label">Что интересует</legend>
+            <label class="chip"><input type="checkbox" name="interest[]" value="vacancies"><span>Вакансии</span></label>
+            <label class="chip"><input type="checkbox" name="interest[]" value="internships"><span>Стажировки</span></label>
+            <label class="chip"><input type="checkbox" name="interest[]" value="excursions"><span>Экскурсии</span></label>
+            <label class="chip"><input type="checkbox" name="interest[]" value="mentoring"><span>Наставничество</span></label>
+            <label class="chip"><input type="checkbox" name="interest[]" value="partnership"><span>Партнёрство</span></label>
+          </fieldset>
+        </div>
+        <div class="field">
+          <label for="e-comment">Комментарий</label>
+          <textarea class="textarea" id="e-comment" name="comment" maxlength="1000" placeholder="Например: ищем стажёров-инженеров на лето"></textarea>
+        </div>
+
+        <label class="check" data-req><input type="checkbox" name="consent" value="1" required><span>Даю <a href="consent.html" target="_blank">согласие на обработку персональных данных</a> и подтверждаю, что ознакомлен(а) с <a href="privacy.html" target="_blank">политикой обработки</a> <span class="req">*</span></span></label>
+
+        <input type="hidden" name="form_type" value="employer">
+        <div class="hp" aria-hidden="true"><label>Сайт<input type="text" name="website" tabindex="-1" autocomplete="off"></label></div>
+
+        <button class="btn btn-red form-submit" type="submit" disabled>Отправить заявку<svg aria-hidden="true"><use href="#i-arrow"/></svg></button>
+        <div class="form-alert" role="alert"></div>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FAQ ============ -->
+<section class="section" id="faq" aria-labelledby="faq-title">
+  <div class="wrap">
+    <h2 class="eyebrow" id="faq-title">Частые вопросы</h2>
+    <div class="faq">
+      <details>
+        <summary>Для кого проект?</summary>
+        <div class="answer"><p>Для жителей Новосибирска и Новосибирской области, которые выбирают профессию, ищут работу или хотят сменить сферу деятельности, а также для работодателей, которым интересны встречи с кандидатами, стажировки и профориентационная работа.</p></div>
+      </details>
+      <details>
+        <summary>Что происходит после заявки?</summary>
+        <div class="answer"><p>Заявка поступает организаторам региональной площадки. Они связываются с вами по указанному телефону или e-mail, уточняют интересы и рассказывают о доступных мероприятиях и форматах. Заявка не является трудоустройством и не гарантирует участие в конкретном мероприятии.</p></div>
+      </details>
+      <details>
+        <summary>Можно ли участвовать работодателю?</summary>
+        <div class="answer"><p>Да. Компании и индивидуальные предприниматели могут предложить участие во встречах с кандидатами, ярмарках, экскурсиях, стажировках и наставничестве. Заполните форму «Я работодатель» — организаторы обсудят с вами подходящий формат.</p></div>
+      </details>
+      <details>
+        <summary>Нужно ли сразу иметь резюме или вакансии?</summary>
+        <div class="answer"><p>Нет. Участнику достаточно оставить контакты — резюме можно подготовить позже. Работодателю не обязательно иметь открытые вакансии: можно начать с экскурсий, профориентационных встреч или наставничества.</p></div>
+      </details>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ============ ПОДВАЛ ============ -->
+<footer class="site-footer" id="contacts">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <h2>Контакты</h2>
+        <ul class="foot-list">
+          <li class="contact-line"><svg aria-hidden="true"><use href="#i-pin"/></svg><span>Новосибирск и Новосибирская область</span></li>
+          <!-- Статус номера как публичного контакта проекта подтвердить до публикации -->
+          <li class="contact-line"><svg aria-hidden="true"><use href="#i-phone"/></svg><a class="contact-big" href="tel:+79059500200">+7 (905) 950-02-00</a></li>
+          <!-- После подтверждения корпоративной почты заменить на <a href="mailto:...">...</a> -->
+          <li class="contact-line"><svg aria-hidden="true"><use href="#i-mail"/></svg><span>E-mail: уточняется</span></li>
+        </ul>
+        <div class="foot-cta">
+          <a class="btn btn-primary btn-sm" href="#participants">Я участник</a>
+          <a class="btn btn-red btn-sm" href="#employers">Я работодатель</a>
+        </div>
+      </div>
+      <div>
+        <h3>Проект</h3>
+        <ul class="foot-list">
+          <li><a href="https://proekty.er.ru/projects/moya-karera-s-edinoi-rossiei" target="_blank" rel="noopener" data-official>Федеральный проект</a></li>
+          <li><a href="https://proekty.er.ru/region-projects/moya-karera-s-edinoi-rossiei-55" target="_blank" rel="noopener" data-official>Проект в Новосибирской области</a></li>
+          <li><a href="#faq">Частые вопросы</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Документы</h3>
+        <ul class="foot-list">
+          <li><a href="privacy.html">Политика обработки персональных данных</a></li>
+          <li><a href="consent.html">Согласие на обработку персональных данных</a></li>
+          <li><a href="cookies.html">Использование файлов cookie</a></li>
+          <li><a href="#" data-cookie-settings>Настройки cookie</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="foot-note">
+      <p><strong>Владелец сайта и оператор обработки заявок:</strong> ИП Якушев Олег Александрович, ИНН 540609100811, ОГРНИП 318547600024638.</p>
+      <p>Региональная информационная площадка проекта «Моя карьера с Единой Россией». Сайт не является официальным сайтом партии, государственным ресурсом или порталом вакансий и не гарантирует трудоустройство. Заявки обрабатываются оператором сайта и не направляются в органы государственной власти.</p>
+      <p>© 2026 Региональная информационная площадка проекта · Новосибирская область</p>
+    </div>
+  </div>
+</footer>
+
+<!-- Мобильная панель с двумя основными CTA -->
+<div class="cta-bar" aria-label="Быстрые действия">
+  <a class="btn btn-primary" href="#participants">Я участник</a>
+  <a class="btn btn-red" href="#employers">Я работодатель</a>
+</div>
+
+<!-- Окно успешной отправки -->
+<div class="modal" id="success" role="dialog" aria-modal="true" aria-labelledby="success-title" hidden>
+  <div class="modal-box">
+    <div class="modal-ico"><svg aria-hidden="true"><use href="#i-check"/></svg></div>
+    <h2 id="success-title">Заявка отправлена</h2>
+    <p>Номер вашего обращения:</p>
+    <div class="modal-id" id="success-id">—</div>
+    <p>Организатор свяжется с вами по указанным контактам.</p>
+    <p class="form-note" id="success-demo" hidden>Демонстрационный режим: сервер не подключён, заявка никуда не отправлена.</p>
+    <button class="btn btn-primary" type="button" data-close>Понятно</button>
+  </div>
+</div>
+
+<!-- Уведомление о cookie -->
+<div class="cookie" id="cookie" role="region" aria-label="Уведомление о файлах cookie">
+  <p>Сайт использует необходимые файлы cookie для работы форм. Аналитические cookie включаются только с вашего согласия. <a href="cookies.html">Подробнее</a></p>
+  <div class="btns">
+    <button class="btn btn-primary btn-sm" type="button" data-cookie="all">Принять все</button>
+    <button class="btn btn-outline btn-sm" type="button" data-cookie="necessary">Только необходимые</button>
+  </div>
+</div>
+
+<script src="assets/js/config.js"></script>
+<script src="assets/js/main.js" defer></script>
+</body>
+</html>
